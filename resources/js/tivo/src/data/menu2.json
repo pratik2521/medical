@@ -1,0 +1,30 @@
+{
+    "data": [
+       {
+        "title": "Administration",
+        "icon": "user",
+        "type": "sub",
+        "badgeType": "light-primary",
+        "active": false,
+        "children": [
+          {
+            "path":"/category-data",
+            "title":"Category",
+            "icon":"file-text",
+            "type":"link",
+            "active":false
+          },
+          {
+            "path":"/product-data",
+            "title":"Product",
+            "icon":"file-text",
+            "type":"link",
+            "active":false
+          }
+          
+         
+          
+        ]
+      }
+    ]
+}

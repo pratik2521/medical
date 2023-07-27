@@ -1,0 +1,50 @@
+{
+    "name": "starter-kit",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "dependencies": {
+        "@ckeditor/ckeditor5-build-classic": "^37.1.0",
+        "@ckeditor/ckeditor5-vue": "^5.1.0",
+        "axios": "^1.4.0",
+        "bootstrap": "^5.2.3",
+        "core-js": "^3.8.3",
+        "dropzone-vue": "^0.1.11",
+        "jw-vue-pagination": "^1.0.3",
+        "swiper": "^10.0.4",
+        "vue": "^3.2.13",
+        "vue-awesome-paginate": "^1.1.46",
+        "vue-feather": "^2.0.0",
+        "vue-plain-pagination": "^0.3.0",
+        "vue-router": "^4.1.6",
+        "vuejs-paginate": "^2.1.0",
+        "vuelidate": "^0.7.7",
+        "vuex": "^4.0.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.12.16",
+        "@babel/eslint-parser": "^7.12.16",
+        "@popperjs/core": "^2.11.6",
+        "@vitejs/plugin-vue": "^4.0.0",
+        "@vue/cli-plugin-babel": "~5.0.0",
+        "@vue/cli-plugin-router": "~5.0.0",
+        "@vue/cli-plugin-vuex": "~5.0.0",
+        "@vue/cli-service": "~5.0.0",
+        "bootstrap": "^5.2.3",
+        "eslint": "^7.32.0",
+        "eslint-plugin-vue": "^8.0.3",
+        "laravel-mix": "^6.0.49",
+        "sass": "^1.56.1",
+        "sass-loader": "^12.0.0",
+        "vue": "^3.2.37",
+        "webpack-cli": "^5.1.1"
+    }
+}

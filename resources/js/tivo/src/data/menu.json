@@ -1,0 +1,95 @@
+{
+  "data": [
+  
+    {
+      "path":"/dashboard",
+      "title": "Dashboards",
+      "icon": "home",
+      "type": "link",
+      "badgeType": "light-primary",
+      "active": false
+      
+    
+    }, 
+    {
+      "path":"/admin",
+      "title": "Admin ",
+      "icon": "user",
+      "type": "link",
+      "badgeType": "light-primary",
+      "active": false
+      
+    
+    }, 
+  
+
+    {
+      "path":"/lead-data",
+      "title":"Lead ",
+      "icon":"server",
+      "type":"link",
+      "active":false
+    },
+    {
+      "path":"/employee-data",
+      "title":"employee ",
+      "icon":"users",
+      "type":"link",
+      "active":false
+    },
+    {
+      "path":"/quote-data",
+      "title":"Quote ",
+      "icon":"activity",
+      "type":"link",
+      "active":false
+    },
+
+    
+      {
+        "title": "Setting",
+        "icon": "settings",
+        "type": "sub",
+        "badgeType": "light-primary",
+        "active": false,
+        "children": [
+          {
+            "path":"/",
+            "title":"Create Property",
+            "icon":"file-text",
+            "type":"link",
+            "active":false
+          }
+        
+        ]
+      },
+      {
+        "title": "Manage Product",
+        "icon": "archive",
+        "type": "sub",
+        "badgeType": "light-primary",
+        "active": false,
+        "children": [
+          {
+            "path":"/category-data",
+            "title":"Category",
+            "icon":"file-text",
+            "type":"link",
+            "active":false
+          },
+          {
+            "path":"/product-data",
+            "title":"Product",
+            "icon":"file-text",
+            "type":"link",
+            "active":false
+          }
+          
+         
+          
+        ]
+      }
+
+    
+  ]
+}
